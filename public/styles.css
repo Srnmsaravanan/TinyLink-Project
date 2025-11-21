@@ -1,0 +1,6 @@
+/* Minimal styling to keep UI presentable */
+body { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; padding: 0; margin: 0; color:#111 }
+a { color: #0b61ff }
+table, th, td { border: 1px solid #eee; padding: 8px; }
+button { padding: 6px 10px; cursor:pointer }
+input { padding: 8px; border:1px solid #ddd }

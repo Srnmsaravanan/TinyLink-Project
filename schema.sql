@@ -1,0 +1,8 @@
+CREATE TABLE links (
+  id SERIAL PRIMARY KEY,
+  code VARCHAR(8) UNIQUE NOT NULL,
+  target_url TEXT NOT NULL,
+  clicks INTEGER NOT NULL DEFAULT 0,
+  last_clicked TIMESTAMP NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT now()
+);
